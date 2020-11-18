@@ -1,0 +1,30 @@
+1.)
+
+1. What is the Topographic Wetness Index?
+
+Topographic Wetness Index (TWI) is a conceptually based model that identifies wet areas that are at high risk of
+overland flash flooding.
+
+Further description: 
+Topographic wetness index (TWI) is an alternative to the traditional
+approach of delineating flood-prone areas using contours alone. The TWI provides a
+more cost-efficient approach to flood determination than conventional hydrodynamic
+models. The Topographic Wetness Index (TWI) is an immediate
+solution, allowing rapid ascertainment of the distribution of overland flash-flood-prone areas
+in a given study site. The TWI is determined using a spatially distributed conceptual model
+which can be used in a Geographical Information System (GIS) environment.
+
+
+2. How are the TWI values related to the flood probability?
+
+TWI model is in a continuous raster data model and each cell has its value of 
+wetness (the model represents wetness distribution). The cell-wetness values are 
+related to the flood probability through defined threshold, which separates cell values into flood- and non-flood-prone classes.
+In order to do so, spatial statistical method (cluster and outlier analysis) was used. The classification of the each
+single cell is based on the surrounding cells with a certain level of statistical confidence.
+
+Further information: 
+The final map will be a vector data model comprising of polygon geometry which shows the boundary of 
+flashflood-prone areas. TWD approach represents the probable flash-flooding-prone areas which
+need comprehensive flood studies and more attention in the land development
+approval process.
