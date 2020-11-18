@@ -28,3 +28,20 @@ The final map will be a vector data model comprising of polygon geometry which s
 flashflood-prone areas. TWD approach represents the probable flash-flooding-prone areas which
 need comprehensive flood studies and more attention in the land development
 approval process.
+
+
+2.) 
+
+QGIS Processing Toolbox: 
+SAGA -> Terrain Analysis-Hydrology -> Topografic wetness index (twi)
+
+GRASS GIS:
+- r.topidx 
+- r.watershed 
+- r.terraflow
+
+Python based project: 
+africker/Topographic-Wetness-Index (https://github.com/africker/Topographic-Wetness-Index)
+
+R based project:
+rsaga.wetness.index: SAGA Modules SAGA Wetness Index (https://rdrr.io/cran/RSAGA/man/rsaga.wetness.index.html)
