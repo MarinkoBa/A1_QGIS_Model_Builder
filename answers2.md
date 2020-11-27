@@ -1,10 +1,10 @@
 #### Aufgabe 2.1: Informationsgewinnung mit `gdalinfo`
-##### `gdalinfo n45_e013_1arc_v3.tif`:
+##### `$ gdalinfo n45_e013_1arc_v3.tif`:
 1. EPSG: 4326 (WGS84)
 2. Driver: GTiff/GeoTIFF
 3. räumliche Aufösung: (0.000277777777778 x 0.000277777777778), Angaben in Grad
 
-##### `gdalinfo N45E014.hgt`:
+##### `$ gdalinfo N45E014.hgt`:
 1. EPSG: 4326 (WGS84)
 2. Driver: SRTMHGT/SRTMHGT File Format
 3. räumliche Aufösung: (0.000277777777778 x 0.000277777777778), Angaben in Grad
